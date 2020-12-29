@@ -1,0 +1,42 @@
+.center {
+  z-index: 999;
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-scroll-down {
+  z-index: 999;
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  opacity: 1;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+#scroll {
+  animation: animateHeight 1.4s linear 0.3s 40;
+}
+
+#circle--shape {
+  animation: animateShape 1.6s ease-in-out 40;
+}
+
+@keyframes animateShape {
+  50% {
+    cy: 100;
+    opacity: 0.1;
+  }
+}
+
+@keyframes animateHeight {
+  70% {
+    height: 70px;
+  }
+}
