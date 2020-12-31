@@ -53,3 +53,93 @@ div.text-slider {
   height: 100%;
   opacity: 0.9;
 }
+
+#anim2 {
+  text-align: center;
+}
+
+#anim2 svg {
+  width: 57% !important;
+}
+
+#anim3 {
+  text-align: center;
+}
+
+#anim3 svg {
+  width: 91% !important;
+}
+
+#anim4 {
+  text-align: center;
+}
+
+#anim4 svg {
+  width: 78% !important;
+}
+
+#anim5 {
+  text-align: center;
+}
+
+#anim5 svg {
+  width: 100% !important;
+}
+
+#anim6 {
+  text-align: center;
+}
+
+#anim6 svg {
+  width: 57% !important;
+}
+
+.row {
+  width: auto;
+  margin: 0 auto;
+}
+
+#anim7 {
+  text-align: center;
+}
+
+#anim7 svg {
+  width: 90% !important;
+  background: transparent;
+}
+
+.desing {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  margin-top: 4em;
+}
+
+h2 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: bold;
+  font-size: 2.9em;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2.3em;
+  }
+
+  .color .row {
+    display: none;
+  }
+}
+
+.color .mt-5 {
+  color: white;
+  background-color: black;
+}
+
+.color p {
+  margin-top: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+
+#anim8 svg {
+  background: transparent;
+}
