@@ -119,16 +119,6 @@ h2 {
   font-size: 2.9em;
 }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 2.3em;
-  }
-
-  .color .row {
-    display: none;
-  }
-}
-
 .color .mt-5 {
   color: white;
   background-color: black;
@@ -138,8 +128,116 @@ h2 {
   margin-top: 1.5em;
   color: black;
   font-weight: bold;
+  text-align: justify;
+}
+
+.color .btn {
+  border-radius: 75px;
+  margin-top: 0.5em;
+  background-color: gold;
+  color: black;
+  border-color: gold;
+  font-size: 1.3em;
+
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  font-weight: bold;
 }
 
 #anim8 svg {
   background: transparent;
+}
+
+.h1 {
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+
+.h1 span {
+  color: #df1818;
+  opacity: 0.8;
+  font-size: 2.5rem;
+}
+
+.text-price {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#red {
+  color: red;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.text-price span {
+  color: black;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.text-price br {
+  display: none;
+}
+
+#anim9 {
+  display: inline;
+}
+
+#anim10 {
+  display: inline;
+}
+
+#anim9 svg {
+  width: 44px !important;
+  background: transparent;
+}
+
+#anim10 svg {
+  width: 44px !important;
+  background: transparent;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2.3em;
+  }
+
+  .color .row {
+    display: none;
+  }
+
+  .h1 {
+    font-size: 2.3em;
+  }
+
+  .h1 span {
+    font-size: 1.6rem;
+  }
+
+  .text-price {
+    font-size: 0.9rem;
+  }
+
+  #red {
+    font-size: 1rem;
+  }
+
+  .text-price span {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .text-price br {
+    display: inline;
+  }
+}
+
+@media (max-width: 321px) {
+  .h1 span {
+    font-size: 1.2rem;
+  }
 }

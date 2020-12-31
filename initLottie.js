@@ -61,3 +61,19 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path: "clock.json",
 });
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("anim9"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "popper.json",
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("anim10"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "popper.json",
+});
