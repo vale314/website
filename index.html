@@ -22,6 +22,13 @@
     <link rel="stylesheet" href="scroll.css" />
     <link rel="stylesheet" href="tree.css" />
     <link rel="stylesheet" href="card-price-css.css" />
+
+    <!--splidejs-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   </head>
   <body>
     <header>
@@ -207,26 +214,6 @@
       </div>
     </div>
 
-    <!-- <div class="row mt-5">
-      <div class="col-md-4 pb-5">
-        <div class="card p-3 pb-0 shadow-card-1">
-          <h5 class="card-header mb-1 card-price">
-            Pagina Web<span> Sencilla </span>
-          </h5>
-          <div class="card-body text-center">
-            <div class="card-text">
-              <div class="list-unstyled">
-                <li>Precios</li>
-                <li>Precios</li>
-                <li>Precios</li>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
-    </div> -->
     <div class="pricing py-5">
       <div class="container">
         <div class="row">
@@ -238,6 +225,7 @@
                   Pagina Web Sencilla
                 </h5>
                 <h6 class="card-price text-center">
+                  <del>$2'400</del>
                   $1'799<span class="period">Un Solo Pago</span>
                 </h6>
                 <hr />
@@ -278,12 +266,14 @@
           </div>
           <!-- Plus Tier -->
           <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0 text-center">
+            <div class="card mb-5 mb-lg-0 text-center" id="card-middle-price">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">
-                  Pagina Web Empresarial
+                  Pagina Web Empresarial <br />
+                  (Precio Desde)
                 </h5>
                 <h6 class="card-price text-center">
+                  <del>$5'000</del>
                   $3'799<span class="period">Un Solo Pago</span>
                 </h6>
                 <hr />
@@ -336,6 +326,7 @@
                   (Pagina De Ventas)
                 </h5>
                 <h6 class="card-price text-center">
+                  <del>$10'000</del>
                   $5'999<span class="period">Un Solo Pago</span>
                 </h6>
                 <hr />
@@ -383,6 +374,83 @@
       </div>
     </div>
 
+    <div
+      class="row justify-content-around pt-5"
+      style="background-color: black; color: white"
+    >
+      <div class="col-md-8">
+        <h2 class="text-center" style="letter-spacing: 0.1em">
+          Algunos Proyectos
+        </h2>
+        <span class="text-center"> </span>
+      </div>
+
+      <div
+        class="row justify-content-around pt-3"
+        style="background-color: black; color: khaki"
+      >
+        <div class="col-sm-12 col-md-12 text-center p-0">
+          <p class="text-price proyectos">
+            <span id="blue">Facebook</span>
+            <span id="green">Google</span>
+            <span id="red">Youtube</span>
+            <br style="display: inherit" />
+            <span>Medicos, </span>
+            <span>Ecommerce, </span>
+            <span>Constructoras</span>
+            <span>Abogados,</span>
+            <span>Mariachis</span>
+            <span>Talleres</span>
+            Para Cualquier Negocio.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col-md-12 text-center" style="padding: 0">
+        <div
+          class="splide"
+          id="splide"
+          data-splide='{"type":"loop","perPage":3,"autoplay":true, "interval":2000, "speed":2000, "pagination": false, "arrows":false,"lazyLoad":"sequential", "pauseOnHover":true,"breakpoints":{"600":{"perPage":2, "interval":2000, "speed":2000}}}'
+        >
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="./img/logoVazquez.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoDoctorCarlos.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoNungaray.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoAmerica.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoPAYP.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoMolli.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoDoctorRicardo.webp" />
+              </li>
+              <li class="splide__slide">
+                <img src="./img/logoOptimo.webp" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <h1 class="h1 text-center h1-questions">Preguntas Frecuentes</h1>
+      </div>
+    </div>
+
     <section>
       <div class="container">
         <div
@@ -423,5 +491,7 @@
     <!--lotie-->
     <script src="lottie.js"></script>
     <script src="initLottie.js"></script>
+
+    <!--slider.js-->
   </body>
 </html>

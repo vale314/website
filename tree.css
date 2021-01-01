@@ -227,7 +227,7 @@ h2 {
   }
 
   .h1 span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .text-price {
@@ -249,8 +249,73 @@ h2 {
   }
 }
 
+#splide img {
+  width: auto;
+}
+
 @media (max-width: 321px) {
   .h1 span {
     font-size: 1.2rem;
   }
+  #splide img {
+    width: 90px;
+  }
+
+  #splide li {
+    width: min-content !important;
+  }
+}
+
+#blue {
+  color: #4267b2;
+}
+
+#green {
+  color: #0f9d58;
+}
+
+#red {
+  color: #ff0000;
+}
+
+.proyectos {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.proyectos span {
+  font-size: 1.2em !important;
+  color: white;
+}
+
+#blue {
+  font-size: 1.3em !important;
+}
+#red {
+  font-size: 1.3em !important;
+}
+
+#green {
+  font-size: 1.3em !important;
+}
+
+@media (max-width: 600px) {
+  .proyectos {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
+  .proyectos span {
+    font-size: 0.9em !important;
+  }
+
+  .proyectos br {
+    margin-top: 10px;
+  }
+}
+
+.h1-questions {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }

@@ -14,6 +14,8 @@ const down = document.querySelectorAll(".down");
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
 
+new Splide("#splide").mount();
+
 window.addEventListener("scroll", () => {
   let scroll = window.pageYOffset;
   let sectionY = section.getBoundingClientRect();
