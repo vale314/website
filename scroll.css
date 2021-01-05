@@ -21,7 +21,7 @@ h4 {
 }
 
 #scroll {
-  animation: animateHeight 1.4s linear 0.3s 40;
+  animation: animateHeight 1.4s linear 0.3s infinite;
 }
 
 #circle--shape {
