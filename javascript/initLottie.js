@@ -3,7 +3,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "google-search-lottie.json",
+  path: "/lotties/google-search-lottie.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -11,7 +11,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "mobile-json-web.json",
+  path: "/lotties/mobile-json-web.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -19,7 +19,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "reaval-credit-card.json",
+  path: "/lotties/reaval-credit-card.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -27,7 +27,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "seo.json",
+  path: "/lotties/seo.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -35,7 +35,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "secure.json",
+  path: "/lotties/secure.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -43,7 +43,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "support.json",
+  path: "/lotties/support.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -51,7 +51,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "programing.json",
+  path: "/lotties/programing.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -59,7 +59,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "clock.json",
+  path: "/lotties/clock.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -67,7 +67,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "popper.json",
+  path: "/lotties/popper.json",
 });
 
 var animation = bodymovin.loadAnimation({
@@ -75,5 +75,5 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "popper.json",
+  path: "/lotties/popper.json",
 });

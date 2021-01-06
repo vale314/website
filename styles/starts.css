@@ -1,0 +1,135 @@
+.reviewcard {
+  box-shadow: 0px 20px 60px -20px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 30px 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  border-radius: 15px;
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+}
+
+.reviewerbox h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 1.9rem;
+  padding-top: 1.1rem;
+  text-align: justify;
+}
+
+.reviewcard img {
+  margin-top: 1.7rem;
+}
+
+.propicbox {
+  float: left;
+}
+
+.propic {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.reviewerbox {
+  margin: -7px 0 0 60px;
+}
+
+.reviewername {
+  color: #39599a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reviewdate {
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #636972;
+  margin: -10px 0 0 0;
+}
+
+.review {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.bottomText {
+  margin: 15px 0 15px;
+  font-size: 14px;
+  color: #636972;
+}
+
+/* BOTTOM BAR */
+.copyrightsleft {
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  text-align: left;
+  font-size: 12px;
+  color: #636972;
+  font-family: sans-serif;
+}
+
+.copyrightsleft {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.copyrightsright {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.rate {
+  height: 46px;
+  padding: 0 10px;
+  text-align: center;
+  display: block;
+  width: fit-content;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ffc700;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+@media (max-width: 600px) {
+  #review {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+  #review1 {
+    display: none;
+  }
+}
