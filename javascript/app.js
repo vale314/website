@@ -10,6 +10,7 @@ const opacity = document.querySelectorAll(".opacity");
 const border = document.querySelector(".border");
 
 const down = document.querySelectorAll(".down");
+const nav = document.querySelectorAll(".nav-float3");
 
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
@@ -19,6 +20,10 @@ new Splide("#splide").mount();
 window.addEventListener("scroll", () => {
   let scroll = window.pageYOffset;
   let sectionY = section.getBoundingClientRect();
+
+  nav.forEach((element) => {
+    element.style.opacity = scroll / section_height;
+  });
 
   translate.forEach((element) => {
     let speed = element.dataset.speed;

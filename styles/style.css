@@ -75,13 +75,21 @@ header:after {
   right: 0;
 }
 
+.nav-color {
+  background-color: black;
+  opacity: 0;
+  z-index: 999;
+  height: 6vh;
+}
+
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  z-index: 30;
+  z-index: 999;
+
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), transparent);
 }
 
@@ -101,7 +109,7 @@ nav .container {
 
 .logo span {
   font-weight: 300;
-  color: black;
+  color: yellowgreen;
   font-stretch: ultra-condensed;
 }
 

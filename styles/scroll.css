@@ -25,7 +25,7 @@ h4 {
 }
 
 #circle--shape {
-  animation: animateShape 1.6s ease-in-out 40;
+  animation: animateShape 1.6s ease-in-out infinite;
 }
 
 @keyframes animateShape {

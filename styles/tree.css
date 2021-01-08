@@ -570,3 +570,115 @@ a:hover {
     transform: scaleX(1);
   }
 }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 3px 8px #999;
+  z-index: 999;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.call {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 105px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 5px 8px #999;
+  z-index: 999;
+}
+
+.boton2 {
+  font-size: 2rem;
+  z-index: 999;
+  position: fixed;
+  bottom: 39px;
+  right: 37px;
+}
+
+/**/
+
+.circle {
+  color: white;
+
+  width: 50px;
+
+  /*filter: url(#wavy) blur(1px);*/
+}
+
+.circle:before {
+  background-color: black;
+  content: "";
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #0f0, inset 0 0 50px #0f0;
+  -webkit-box-reflect: below 10px
+    linear-gradient(transparent, transparent, #0002);
+  animation: animate 5s linear infinite;
+  text-align: center;
+  z-index: 990;
+}
+
+.circle:after {
+  background-color: black;
+  content: "";
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #0ff, inset 0 0 20px #0ff;
+  text-align: center;
+  z-index: 990;
+}
+
+.circle:nth-child(2):before {
+  animation-delay: -2.5s;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 50px #0f0, inset 0 0 50px #0f0;
+    filter: hue-rotate(0deg);
+  }
+  20% {
+    box-shadow: 0 0 60px #0f0, inset 0 0 60px #0f0;
+  }
+  40% {
+    box-shadow: 0 0 40px #0f0, inset 0 0 40px #0f0;
+  }
+  60% {
+    box-shadow: 0 0 80px #0f0, inset 0 0 80px #0f0;
+  }
+  28% {
+    box-shadow: 0 0 100px #0f0, inset 0 0 100px #0f0;
+  }
+  100% {
+    box-shadow: 0 0 50px #0f0, inset 0 0 50px #0f0;
+    filter: hue-rotate(360deg);
+  }
+}
