@@ -31,6 +31,7 @@
     />
     <script
       defer
+      rel="preconnect"
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
@@ -48,16 +49,22 @@
     <link
       rel="stylesheet"
       defer
+      rel="preconnect"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
     <link
       rel="stylesheet"
       defer
+      rel="preconnect"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script
+      rel="preconnect"
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"
+    ></script>
     <script
       defer
+      rel="preconnect"
       src="https://kit.fontawesome.com/fdca450ced.js"
       crossorigin="anonymous"
     ></script>
@@ -147,8 +154,8 @@
         />
         <source media="(min-width:768px)" srcset="img/sky.png" />
         <img
-          src="img/display-cell/sky-min.png"
-          class="sky translate"
+          data-src="img/display-cell/sky-min.png"
+          class="lazyload sky translate"
           data-speed="0.5"
           alt="SKY recortado - Marketing Digital Y Desarrollo De Paginas Web Economicas"
         />
@@ -191,10 +198,17 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="circle"><i class="boton2 fas fa-phone-volume"></i></div>
-          <div class="circle2">
+          <a href="tel:3328433656" class="circle"
+            ><i class="boton2 fas fa-phone-volume"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=523328433656&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Una%20Página%20Web%20Gracias."
+            target="_blank"
+            rel="noreferrer"
+            class="circle2"
+          >
             <i class="boton3 fa fa-whatsapp my-float"></i>
-          </div>
+          </a>
           <!-- <a
             href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
             class="float"
@@ -280,7 +294,11 @@
           No esperes más, tu sitio es entregado en tiempo express de ser
           requerido. 100% para cualquier dispositivo (celular, tablet, laptop).
         </p>
-        <button class="btn btn-primary mb-3" type="button">
+        <button
+          class="btn btn-primary mb-3"
+          type="button"
+          onclick="window.open('tel:3328433656', '_parent')"
+        >
           Cotizar Ahora !
         </button>
       </div>
@@ -361,7 +379,9 @@
                     >Codigo Fuente
                   </li>
                 </ul>
-                <a href="#" class="btn btn-primary text-uppercase">Contactar</a>
+                <a href="tel:3328433656" class="btn btn-primary text-uppercase"
+                  >Contactar</a
+                >
               </div>
             </div>
           </div>
@@ -412,7 +432,9 @@
                     >Entrega De Codigo Fuente
                   </li>
                 </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase"
+                <a
+                  href="tel:3328433656"
+                  class="btn btn-block btn-primary text-uppercase"
                   >Contactar</a
                 >
               </div>
@@ -465,7 +487,9 @@
                     >Inventario Automatico
                   </li>
                 </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase"
+                <a
+                  href="tel:3328433656"
+                  class="btn btn-block btn-primary text-uppercase"
                   >Contactar</a
                 >
               </div>
