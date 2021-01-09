@@ -46,6 +46,8 @@
 
 .pricing .text-muted {
   opacity: 0.7;
+  color: red !important;
+  font-weight: bold;
 }
 
 .pricing .btn {

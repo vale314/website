@@ -613,6 +613,16 @@ a:hover {
   right: 37px;
 }
 
+.boton3 {
+  color: white;
+  font-size: 2rem !important;
+  z-index: 999;
+  position: fixed;
+  bottom: 110px;
+  right: 35px;
+  z-index: 999;
+}
+
 /**/
 
 .circle {
@@ -657,6 +667,43 @@ a:hover {
 }
 
 .circle:nth-child(2):before {
+  animation-delay: -2.5s;
+}
+
+.circle2:before {
+  background-color: #25d366;
+  content: "";
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 95px;
+  right: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #0f0, inset 0 0 50px #0f0;
+  -webkit-box-reflect: below 10px
+    linear-gradient(transparent, transparent, #0002);
+  animation: animate 5s linear infinite;
+  text-align: center;
+  z-index: 990;
+}
+
+.circle2:after {
+  background-color: #25d366;
+  content: "";
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 95px;
+  right: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #0ff, inset 0 0 20px #0ff;
+  text-align: center;
+  z-index: 990;
+}
+
+.circle2:nth-child(2):before {
   animation-delay: -2.5s;
 }
 
