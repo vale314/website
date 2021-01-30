@@ -288,3 +288,19 @@ section .container > * {
     padding: 0;
   }
 }
+
+.tag-google {
+  font-size: 1em;
+  border-radius: 5rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width: 80%;
+  background-color: gold !important;
+  border-color: gold;
+  margin-top: 5px;
+  color: black;
+  -webkit-box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
+  -moz-box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
+  box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
+}
