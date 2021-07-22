@@ -1383,9 +1383,11 @@
     <script defer src="/javascript/drop.js"></script>
 
     <script type="text/javascript">
-      document.getElementById("ClickToCall").click(function () {
-        fbq("track", "Purchase", { currency: "USD", value: 30.0 });
-      });
+      document
+        .getElementById("ClickToCall")
+        .addEventListener("click", function () {
+          fbq("track", "Purchase", { currency: "USD", value: 30.0 });
+        });
     </script>
   </body>
 </html>
