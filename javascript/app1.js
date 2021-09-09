@@ -11,19 +11,17 @@ const border = document.querySelector(".border");
 
 const down = document.querySelector(".down");
 const nav = document.querySelector(".nav-float3");
-const nav1 = document.querySelector(".nav-float4");
 
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
 
 new Splide("#splide").mount();
 
-function y() {
+function x() {
   let scroll = window.pageYOffset;
   let sectionY = section.getBoundingClientRect();
 
   nav.style.opacity = scroll / section_height;
-  nav1.style.opacity = scroll / section_height;
 
   let speed = translate.dataset.speed;
   translate.style.transform = `translateY(${scroll * speed}px)`;
@@ -45,7 +43,6 @@ function y() {
 
   border.style.width = `${(scroll / (sectionY.top + section_height)) * 30}%`;
 }
-
-window.addEventListener("scroll", y);
+window.onscroll = x();
 
 window.removeEventListener("beforeunload", x);

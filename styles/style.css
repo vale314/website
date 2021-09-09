@@ -38,9 +38,15 @@ header:after {
 }
 
 .mountain1 {
-  position: absolute;
+  /* position: absolute;
   bottom: -100px;
   width: 1500px;
+  right: 0;
+  z-index: 19; */
+
+  position: absolute;
+  bottom: -100px;
+  width: 1656px;
   right: 0;
   z-index: 19;
 }
@@ -54,18 +60,30 @@ header:after {
 }
 
 .mountain2 {
-  position: absolute;
+  /* position: absolute;
   width: 1100px;
   bottom: -100px;
   left: 0;
+  z-index: 18; */
+
+  position: absolute;
+  width: 1579px;
+  bottom: -226px;
+  left: -109px;
   z-index: 18;
 }
 
 .mountain3 {
-  position: absolute;
+  /* position: absolute;
   width: 900px;
   bottom: 150px;
   right: 0;
+  z-index: 17; */
+
+  position: absolute;
+  width: 1400px;
+  bottom: 58px;
+  right: -6px;
   z-index: 17;
 }
 
@@ -303,4 +321,42 @@ section .container > * {
   -webkit-box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
   -moz-box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
   box-shadow: 3px 3px 5px 5px rgb(245, 242, 231);
+}
+
+/* Profile */
+
+.big-title-profile {
+  position: absolute;
+  z-index: 30;
+  line-height: 4rem;
+  top: calc(50% - 2rem);
+  width: 100%;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.small-title-profile {
+  position: absolute;
+  z-index: 30;
+  line-height: 4rem;
+  top: calc(59% - 2rem);
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.shadow2 {
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  z-index: 19;
+
+  background: black;
+  opacity: 0.4;
 }
