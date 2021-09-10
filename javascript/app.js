@@ -10,20 +10,21 @@ const image_container = document.querySelector(".imgContainer");
 const border = document.querySelector(".border");
 
 const down = document.querySelector(".down");
-const nav = document.querySelector(".nav-float3");
-const nav1 = document.querySelector(".nav-float4");
+var nav = document.querySelector(".nav-float3");
 
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
 
 new Splide("#splide").mount();
 
+nav.style.opacity = 0;
+
 function y() {
   let scroll = window.pageYOffset;
   let sectionY = section.getBoundingClientRect();
 
   nav.style.opacity = scroll / section_height;
-  nav1.style.opacity = scroll / section_height;
+  console.log("nav");
 
   let speed = translate.dataset.speed;
   translate.style.transform = `translateY(${scroll * speed}px)`;

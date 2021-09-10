@@ -96,7 +96,7 @@ header:after {
 
 .nav-color {
   background-color: black;
-  opacity: 0;
+  opacity: 1;
   z-index: 999;
   height: 7vh;
 }
@@ -288,6 +288,14 @@ section .container > * {
 @media (max-width: 600px) {
   .big-title {
     font-size: 3rem;
+  }
+
+  .small-title-profile {
+    font-size: 2.5rem !important;
+  }
+
+  .big-title-profile {
+    font-size: 1.4rem !important;
   }
 
   .small-title {
