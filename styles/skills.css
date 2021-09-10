@@ -294,7 +294,7 @@
   position: absolute;
   width: 1em;
   height: 1em;
-  clip: rect(0em, 1em, 1em, 0.5em);
+  /* clip: rect(0em, 1em, 1em, 0.5em); */
 }
 .c100.p1 .bar {
   -webkit-transform: rotate(3.6deg);
